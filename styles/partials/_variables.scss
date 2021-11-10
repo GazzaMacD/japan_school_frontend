@@ -1,0 +1,100 @@
+// 2020 Design Colors
+$green: #b0e600;
+$dark-green: #113d32;
+$olive-green: #79990f;
+$light-green: #dcf297;
+$orange: #fea800;
+$yellow: #fcf40d;
+$blue: #97d0e3;
+$dark-yellow: #f2d30c;
+$dark-orange: #ff710d;
+$light-grey: #f6f6f6;
+$lighter-grey: #e5e5e5;
+$grey: #8b8991;
+$darker-grey: #8a8a8a;
+$dark-grey: #4f4f4f;
+$black: #000000;
+$white: #ffffff;
+$red: #e62f17;
+//Box shadows
+$card-shadow: 0px 0px 7px rgba($darker-grey, 0.4);
+$button-shadow: 0 1px 2px 0 rgba($darker-grey, 0.7),
+  0 1px 3px 1px rgba($lighter-grey, 0.7);
+// Components
+//
+// Control the default styling of elements by modifying these
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: (
+    $spacer * 0.25,
+  ),
+  2: (
+    $spacer * 0.5,
+  ),
+  3: $spacer,
+  4: (
+    $spacer * 1.5,
+  ),
+  5: (
+    $spacer * 3,
+  ),
+);
+//
+// Commonly Used Grid breakpoints
+// ** Using px for browser consistency **
+$bp-small: 576px;
+$bp-medium-small: 768px;
+$bp-medium: 992px;
+$bp-large: 1200px;
+
+$border-width: 1px;
+$border-color: $lighter-grey;
+$border-style: solid;
+//Body settings
+$body-color: $dark-grey;
+//
+//Fonts
+//
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+$letter-spacing: 0.1rem;
+$font-size-html-base: 62.5%;
+$font-size-base: 1rem;
+//$font-family:"Helvetica Neue", "Yu Gothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Verdana, Meiryo, sans-serif;
+
+$lat-serif-family: Palatino, 'Palatino Linotype', 'Hoefler Text', Times,
+  'Times New Roman', serif;
+$jap-serif-font-family: 'ヒラギノ明朝 ProN', 'Hiragino Mincho ProN', '游明朝',
+  '游明朝体', 'YuMincho', 'Yu Mincho', 'ＭＳ 明朝', 'MS Mincho',
+  'HiraMinProN-W3', 'TakaoEx明朝', 'TakaoExMincho', 'MotoyaLCedar',
+  'Droid Sans Japanese', serif;
+
+// 2020 fonts
+$font-family: 'Yu Gothic', 'メイリオ', 'Meiryo', 'ＭＳ ゴシック', 'MS Gothic',
+  'HiraKakuProN-W3', 'TakaoExゴシック', 'TakaoExGothic', 'MotoyaLCedar',
+  'Droid Sans Japanese', sans-serif;
+$righteous: 'Righteous', sans-serif;
+$verdana: Verdana, Geneva, sans-serif;
+
+$font-weight-normal: 300;
+$font-weight-headings: 500;
+$line-height-base: 1.5;
+
+$h1-font-size: $font-size-base * 3;
+$h2-font-size: $font-size-base * 2.6;
+$h3-font-size: $font-size-base * 2.35;
+$h4-font-size: $font-size-base * 2.1;
+$h5-font-size: $font-size-base * 1.85;
+$h6-font-size: $font-size-base * 1.6;
+
+$headings-margin-bottom: $spacer;
+$headings-font-family: inherit;
+$headings-font-weight: 500;
+$headings-line-height: 1.2;
+$headings-color: inherit;
+
+//
+// hr
+//
+$hr-margin-y: $spacer * 2;
