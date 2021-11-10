@@ -8,7 +8,7 @@ const Logo = (): JSX.Element => {
       <Link href="/">
         <a>
           <Image
-            src="/images/xlingual_only_logo.svg"
+            src="/logo/xlingual_only_logo.svg"
             alt="XLingual Logo"
             width={300}
             height={68}

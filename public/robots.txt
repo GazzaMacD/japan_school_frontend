@@ -1,0 +1,8 @@
+# User agents  should not crawl 
+User-agent: *
+Disallow: /accounts/
+Disallow: /dashboard/
+
+# Allow all user agents on rest of site.
+User-agent: *
+Allow: /
